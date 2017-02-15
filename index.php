@@ -110,8 +110,16 @@ else: ?><!DOCTYPE html>
                 color: #fff !important;
                 background-color: #92278f !important;
             }
+            .btn.btn-default{
+                color: #92278f !important;
+            }
             code {
                 font-size: 80%;
+            }
+
+            .siggy{
+                font-weight: bold;
+                font-family: Helvetica;
             }
         </style>
 
@@ -191,7 +199,15 @@ else: ?><!DOCTYPE html>
                 </form>
             </div>
 
+            
             <div class="container">
+                <div class="row">
+                    <div class="col-sm-12">
+                        <div class="text-center siggy">
+                            Email Signature   
+                        </div>
+                    </div>
+                </div>
                 <iframe src="about:blank" name="preview" width="100%" height="200"></iframe>
             </div>
 
