@@ -146,13 +146,13 @@ else: ?><!DOCTYPE html>
                     <div class="form-group">
                         <label for="Name" class="control-label col-xs-2">Name</label>
                         <div class="col-xs-10">
-                            <input type="text" class="form-control" id="Name" name="Sender[name]" placeholder="Enter your name">
+                            <input type="text" class="form-control" id="Name" name="Sender[name]" placeholder="Enter your name" required="true">
                         </div>
                     </div>
                     <div class="form-group">
                         <label for="Name" class="control-label col-xs-2">Job Title</label>
                         <div class="col-xs-10">
-                            <input type="text" class="form-control" id="Name" name="Sender[position]" placeholder="Enter your job title">
+                            <input type="text" class="form-control" id="Name" name="Sender[position]" placeholder="Enter your job title" required="true">
                         </div>
                     </div>
                     <div class="form-group">
@@ -169,14 +169,14 @@ else: ?><!DOCTYPE html>
                     <div class="form-group">
                         <label for="Name" class="control-label col-xs-2">Email</label>
                         <div class="input-group col-xs-10">
-                          <input type="text" class="form-control" id="Email" name="Sender[email]" placeholder="Enter your email" aria-describedby="basic-addon2">
+                          <input type="text" class="form-control" id="Email" name="Sender[email]" placeholder="Enter your email" aria-describedby="basic-addon2" required="true">
                           <span class="input-group-addon" id="basic-addon2">@smart-consultant.com</span>
                         </div>
                     </div>
                     <div class="form-group">
                         <label for="Mobile" class="control-label col-xs-2">Mobile Phone</label>
                         <div class="input-group col-xs-10">
-                            <input type="phone" class="form-control" id="Mobile" name="Sender[mobile]" placeholder="+62 (817) 083-0101">
+                            <input type="phone" class="form-control" id="Mobile" name="Sender[mobile]" placeholder="+62 (817) 083-0101" required="true">
                         </div>
                     </div>
                     <div class="row">
