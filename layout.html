@@ -1,0 +1,52 @@
+<div id="smartform">
+    <div class="name">[[NAME]]<br/></div>
+    <div class="position">[[POSITION]]<br/></div>
+    <div class="department">[[DEPARTMENT]]<br/></div>
+
+    <div class="company">PT Solusi Manufaktur Teknologi<br/></div>
+
+    <span style="display: inline-block; width: 20px; color: #92278f;">a :</span>
+    <span class="address">EightyEight@Kasablanka <br/>
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;9th Floor – Unit E <br/>
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Jl. Casablanca Raya Kav. 88 <br/>
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Jakarta Selatan, DKI Jakarta - 12870<br/></span>
+
+        <span style="display: inline-block; width: 20px; color: #92278f;">e : </span>
+        <span class="email">[[EMAIL]]<br/></span>
+
+        <span style="display: inline-block; width: 20px; color: #92278f;">p : </span>
+        <span class="phone">[[PHONE]]<br/></span>
+
+        <span style="display: inline-block; width: 20px; color: #92278f;">m : </span>
+        <span class="mobile">[[IF-MOBILE]][[MOBILE]]<br/>[[ENDIF-MOBILE]]</span>
+
+        <span style="display: inline-block; width: 20px; color: #92278f;">w : </span>
+        <span class="website">[[IF-WEBSITE]]smart-consultant.com[[ENDIF-WEBSITE]]</span>
+</div>
+<button class="btn" data-clipboard-target="#smartform">
+    <img src="assets/clippy.svg" alt="Copy to clipboard">
+</button>
+
+<script src="dist/clipboard.min.js"></script>
+<script type="text/javascript">
+    new Clipboard('.btn');
+</script>
+<style type="text/css">
+    html,
+    body {
+        font-family: Arial;
+    }
+
+    .name{
+        font-weight: bold;
+        color: #92278f;
+    }
+
+    .position{
+        font-style: italic;
+    }
+
+    .company{
+        font-weight: bold;
+    }
+</style>
