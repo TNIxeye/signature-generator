@@ -178,7 +178,7 @@ else: ?><!DOCTYPE html>
                     <div class="form-group">
                         <label for="Name" class="control-label col-xs-2">Email</label>
                         <div class="input-group col-xs-10">
-                          <input type="text" class="form-control" id="Email" name="Sender[email]" placeholder="Enter your email" aria-describedby="basic-addon2" required="true">
+                          <input type="text" class="form-control" id="Email" name="Sender[email]" placeholder="Enter your email without @smart-consultant.com" aria-describedby="basic-addon2" required="true">
                           <span class="input-group-addon" id="basic-addon2">@smart-consultant.com</span>
                         </div>
                     </div>
@@ -209,7 +209,7 @@ else: ?><!DOCTYPE html>
                         </div>
                     </div>
                 </div>
-                <iframe src="about:blank" name="preview" width="100%" height="200"></iframe>
+                <iframe src="about:blank" name="preview" width="100%" height="300"></iframe>
             </div>
 
         </div>
