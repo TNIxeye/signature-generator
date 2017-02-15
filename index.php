@@ -168,9 +168,10 @@ else: ?><!DOCTYPE html>
                         <!-- <input type="text" class="form-control" id="Name" name="Sender[department]" placeholder="Enter your name"> -->
                         <div class="col-xs-10">
                             <select class="form-control" id="sel1" id="Name" name="Sender[department]">
+                                    <option>Executive</option>
                                     <option>Customs Consultant</option>
                                     <option>IT Consultant</option>
-                                    <option>Executive</option>
+                                    <option>General Affair</option>
                             </select>
                         </div>
                     </div>
